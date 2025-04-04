@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <form>
+                <h3>Cadastro</h3>
+                <label for="name>Nome">Nome</label>
+                <input type="text" name="nome" placeholder="Digite o seu nome" autocomplete="on" required/>
+                <br>
+                <label for="email">Email</label>
+                <input type="=email" placeholder="Digite seu email" required/>
+                <br>
+                <label for="dt_nasc">Data de nascimento</label>
+                <input type="date" placeholder="Aniversário"/>
+                <br>
+                <h3>Usuário</h3>
+                <br>
+                <label for="user">Usuário</label>
+                <input type="text" name="Usuário" placeholder="Digite o seu usuário" autocomplete="on" required/>
+                <br>
+                <label for="senha">Nome</label>
+                <input type="password" name="number" placeholder="Digite sua senha" autocomplete="on" required/>
+                <br>
+                <fieldset>
+                <h3>Endereço</h3>
+                <label for="RUA">Rua</label>
+                <input type="text" name="RUA" placeholder="Rua" autocomplete="on" required/>
+                <br>
+                <label for="número">Número</label>
+                <input type="number" name="número" placeholder="Endereço" autocomplete="on" required/>
+                <br>
+                <label for="CEP">CEP</label>
+                <input type="text" name="CEP" size="8" placeholder="CEP" autocomplete="on" required/>
+                <br>
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" placeholder="Bairro" autocomplete="on" required/>
+                <br>
+                <label for="cidade">Cidade</label>
+                <select name="cidade">
+                    <option selected>Mormaço</option>
+                    <option>Soledade</option>
+                    <option>Ibirubá</option>
+                </select>
+                <br><br>
+                <label for="estado">Estado</label>
+                <select  name="estado">
+                    <option selected>RS</option>
+                    <option>SC</option>
+                    <option disabled>PR</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>DIversos</legend>
+                <input type="color">
+                <input type="file">
+
+                <br><br>
+                <p> Desejar receber propagandas?</p>
+
+                <input type="radio" id="sim" name="propaganda">
+                <label for="sim">Sim</label>
+                <input type="radio" id="não" name="propaganda">
+                <label for="não">Não</label>
+
+                <p> Você leu e concorda com os temos de uso do nosso site?</p>
+                <label for="termos">Sim</label>
+                <input type="checkbox" name="termos" id="">
+                <label for="termos">Não</label>
+                <input type="checkbox" name="termos" id="">
+
+            </fieldset>
+
+                <br><br>
+                <input type="submit" value="Enviar" />
+            </form>
+        </article>
+    </main>
+    <footer></footer>
+</body>
+</html>
