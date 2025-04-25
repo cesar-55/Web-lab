@@ -1,0 +1,28 @@
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.classe_cesar{
+    color: brown;
+}
+
+#id_cesar{
+    color: blueviolet;
+}
+
+article > p {
+    font-size:25p x;
+    font-style: italic;
+    color: green;
+}
+
+article h1 {
+    color: blue;
+    font-size: 15px;
+}
+
+article h2 {
+    color: orange;
+}
